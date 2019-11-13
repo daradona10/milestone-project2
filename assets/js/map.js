@@ -10,6 +10,19 @@ function initMap() {
 
 
             var labels = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+
+
+
+function addMarker(feature) {
+  var marker = new google.maps.Marker({
+    position: feature.position,
+    map: map,
+    icon: icons[feature.type].icon,
+
+});
+}
+
+
  
     var map;
     var InforObj = [];
@@ -22,7 +35,7 @@ function initMap() {
         LatLng: [{
             lat: 52.314371,
             lng: 4.941964
-        }]
+       }],
     },
     {   placeName: "Baku (Olympic Stadium)",
         LatLng: [{
@@ -103,7 +116,7 @@ window.onload = function () {
  
                 const marker = new google.maps.Marker({
                     position: markersOnMap[i].LatLng[0],
-                    map: map
+                    map: map,
                 });
  
                 const infowindow = new google.maps.InfoWindow({
@@ -116,6 +129,7 @@ window.onload = function () {
                     infowindow.open(marker.get('map'), marker);
                     InforObj[0] = infowindow;
                 });
+            
                 // marker.addListener('mouseover', function () {
                 //     closeOtherInfo();
                 //     infowindow.open(marker.get('map'), marker);
