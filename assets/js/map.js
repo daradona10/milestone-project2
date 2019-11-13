@@ -153,16 +153,15 @@ window.onload = function () {
                 InforObj.length = 0;
             }
         }
- 
-        function initMap() {
+ function initMap() {
             map = new google.maps.Map(document.getElementById('map'), {
-                zoom: 4,
+                zoom: 3,
                 center: centerCords
             });
             addMarkerInfo();
         }
 
-       
+      
 
        var markerCluster = new MarkerClusterer(map, markers,
             {imagePath: 'https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/m'});
