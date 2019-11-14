@@ -1,4 +1,4 @@
-!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -17,23 +17,56 @@
 
 <body>
 
-	<!--Header logo and Nav Bar using Bootstrap components and utilities-->
-	<header class="container-fluid">
-		<nav class="navbar navbar-expand-lg nav-footer-color navbar-light fixed-top">
-			<a class="navbar-brand" href="index.html">
-				<img src="assets/images/Euro2020.png" class="d-inline-block" alt="Football Logo">
-				<span class="navbar-brand-text">EUROPEAN CHAMPIONSHIP 2020</span>
-			</a>
-		</nav>
-	</header>
+	
 
 
-        
-         
+<button id="1" style="padding:10px; cursor:pointer;">Munich</button>
+<button id="2" style="padding:10px;cursor:pointer;">New York</button>
+<button id="3" style="padding:10px;cursor:pointer;">Moscow</button>
+<br>
+<br>
+<div style="height:100%;" id="map-canvas"></div>
 
 
-
-
+<!--Footer - social media links, opening hours etc using font awesome also-->
+	<footer class="container-fluid">
+		<div class="row nav-footer-color">
+			<div class="col-sm-4">
+				<h5 class="footer-headings uppercase">Social Media</h5>
+				<p>Folow us on social media:</p>
+				<ul class="list-inline footer-links">
+					<li class="list-inline-item">
+						<a target="_blank" aria-label="Link to Facebook" rel="noopener"
+							href="https://www.facebook.com/PlanetHealthClubLimerick/">
+							<i class="fa fa-facebook" aria-hidden="true"></i>
+							<span class="sr-only">Facebook</span>
+						</a>
+					</li>
+					<li class="list-inline-item">
+						<a target="_blank" aria-label="Link to Twitter" rel="noopener"
+							href="https://twitter.com/planetlimerick1">
+							<i class="fa fa-twitter" aria-hidden="true"></i>
+							<span class="sr-only">Twitter</span>
+						</a>
+					</li>
+					<li class="list-inline-item">
+						<a target="_blank" aria-label="Link to YouTube" rel="noopener"
+							href="https://www.youtube.com/watch?v=RkzxJjSxJ7Q">
+							<i class="fa fa-youtube" aria-hidden="true"></i>
+							<span class="sr-only">YouTube</span>
+						</a>
+					</li>
+					<li class="list-inline-item">
+						<a target="_blank" aria-label="Link to Instagram" rel="noopener"
+							href="https://instagram.com/planethealthlimerick">
+							<i class="fa fa-instagram" aria-hidden="true"></i>
+							<span class="sr-only">Instagram</span>
+						</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</footer>
 
 
 
@@ -41,9 +74,9 @@
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
 	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-
-    <script src="https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/markerclusterer.js"></script>
-    <script src ="./assets/js/map.js"></script>
+   <script src="https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/markerclusterer.js"></script>
+   <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&signed_in=true"></script>
+    <script src ="./assets/js/maps.js"></script>
     <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBOCh1i3mrbWapLVWJutkosM2L-c9wMnRc&callback=initMap"></script>
  
 </body>

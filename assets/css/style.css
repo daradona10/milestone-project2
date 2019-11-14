@@ -46,7 +46,18 @@ html, body {
   padding: 0 15px;
 }
 
-
+#map-canvas {
+        height: 80vh;
+}
+/* Optional: Makes the sample page fill the window. */
+html, body {
+  height: 400%;
+  width: 100%;
+  margin: 0;
+  padding: 0 15px;
+}
+      
+      
 /*Welcome to Euro 2020*/
 .uppercase {
     text-transform: uppercase;
