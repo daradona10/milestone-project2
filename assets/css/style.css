@@ -47,17 +47,21 @@ html, body {
 }
 
 #map-canvas {
-        height: 80vh;
-}
+        height: 100vh;
+background-size: cover;
 /* Optional: Makes the sample page fill the window. */
-html, body {
-  height: 400%;
+
   width: 100%;
-  margin: 0;
-  padding: 0 15px;
+  margin: 40px;
+  margin-bottom: 40px;
+  padding: 20px;
+ border: 2px;
+ justify-content: center;
+ display: flex;
 }
       
-      
+
+
 /*Welcome to Euro 2020*/
 .uppercase {
     text-transform: uppercase;

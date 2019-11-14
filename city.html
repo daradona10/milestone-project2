@@ -16,17 +16,51 @@
 
 
 <body>
-
+<!--Header logo and Nav Bar using Bootstrap components and utilities-->
+	<header class="container-fluid">
+		<nav class="navbar navbar-expand-lg nav-footer-color navbar-light fixed-top">
+			<a class="navbar-brand" href="index.html">
+				<img src="assets/images/Euro2020.png" class="d-inline-block" alt="Football Logo">
+				<span class="navbar-brand-text">EUROPEAN CHAMPIONSHIP 2020</span>
+			</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+			<div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+				<div class="navbar-nav">
+					<a class="nav-item nav-link" href="index.html">Home</a>
+					<a class="nav-item nav-link" href="facilities.html">Facilities</a>
+					<a class="nav-item nav-link" href="classes.html">Classes</a>
+					<a class="nav-item nav-link" href="membership.html">Membership</a>
+					<a class="nav-item nav-link" href="contact.html">Contact Us</a>
+				</div>
+			</div>
+		</nav>
+	</header>
+		</nav>
+	</header>
 	
-
-
-<button id="1" style="padding:10px; cursor:pointer;">Munich</button>
-<button id="2" style="padding:10px;cursor:pointer;">New York</button>
-<button id="3" style="padding:10px;cursor:pointer;">Moscow</button>
+<section class="container-fluid">
+<div class="row">
+			<div class="col-12">
+<div id="map-canvas"></div>
+			</div>
+</div>
+<button id="1" style="padding:10px; cursor:pointer;">AMSTERDAM</button>
+<button id="2" style="padding:10px;cursor:pointer;">BAKU</button>
+<button id="3" style="padding:10px;cursor:pointer;">BILBAO</button>
+<button id="4" style="padding:10px;cursor:pointer;">BUCHAREST</button>
+<button id="5" style="padding:10px;cursor:pointer;">BUPAPEST</button>
+<button id="6" style="padding:10px;cursor:pointer;">COPENHAGEN</button>
+<button id="7" style="padding:10px;cursor:pointer;">DUBLIN</button>
+<button id="8" style="padding:10px;cursor:pointer;">GLASGOW</button>
+<button id="9" style="padding:10px;cursor:pointer;">LONDON</button>
+<button id="10" style="padding:10px;cursor:pointer;">MUNICH</button>
+<button id="11" style="padding:10px;cursor:pointer;">ROME</button>
+<button id="12" style="padding:10px;cursor:pointer;">SAINT PETERSBURG</button>
 <br>
 <br>
-<div style="height:100%;" id="map-canvas"></div>
-
+</section>
 
 <!--Footer - social media links, opening hours etc using font awesome also-->
 	<footer class="container-fluid">
