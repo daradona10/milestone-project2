@@ -11,15 +11,14 @@
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.1/css/hover-min.css"
 		type="text/css" />
 	<link rel="stylesheet" href="assets/css/style.css" type="text/css" />
-    <script type="text/javascript"
-        src="https://cdn.jsdelivr.net/npm/emailjs-com@2.4.1/dist/email.min.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@2.4.1/dist/email.min.js"></script>
 <script type="text/javascript">
    (function(){
       emailjs.init("user_0XYcjq9lBnmju0SBMJzgI");
-      emailjs.send("gmail","euro_2020",{name: "Darragh", notes: "The Euro 2020 newsletter signUp"});
+    
    })();
 </script>
-    <title>Euro 2020</title>
+    
 </head>
 
 
@@ -87,7 +86,7 @@
 			</div>
 			<div class="col-11 col-md-5 box-format border-box border-shadow bg-clr-yellow">
 				<h3 class="headings"><b>Contact Us</b></h3>
-				<form class="contact-forms">
+				<form id="myform" method="post">
 					<div class="form-group">
 						<label for="name"><b>Name</b></label>
 						<input type="text" class="form-control" id="name" aria-describedby="name" placeholder="First name" required>
@@ -101,14 +100,9 @@
 								<input type="email" class="form-control" id="email" aria-describedby="email" placeholder="Enter email" required>
 								<small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
 							</div>
-							<div class="form-group">
-								<label for="phone"><b>Phone</b></label>
-								<input type="text" class="form-control" id="phone" aria-describedby="surname" placeholder="Phone" required>
-                    </div>
-								<div class="form-group">
-									<label for="message"><b>Message</b></label>
-									<textarea rows="5" class="form-control" id="message" aria-describedby="message" placeholder="Enter message" required></textarea>
-								</div>
+								<label>newsletter_signup</label>
+<input type="text" name="newsletter_signup" />
+<br><br>
 								<button type="submit" class="btn btn-lg btn-red-transition">Submit</button>
 				</form>
 			</div>
@@ -159,8 +153,7 @@
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
 	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-    <script src="https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/markerclusterer.js"></script>
-    <script src ="./assets/js/map.js"></script>
-    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBOCh1i3mrbWapLVWJutkosM2L-c9wMnRc&callback=initMap"></script>
+    <script src ="./assets/js/sendEmail.js"></script>
+ 
 </body>
 </html>
