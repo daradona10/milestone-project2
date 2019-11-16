@@ -1,7 +1,7 @@
 
 function initMap() {
             map = new google.maps.Map(document.getElementById("map"), {
-                zoom: 3,
+                zoom: 4,
                 center: {
                     lat: 50.7436337,
                     lng: 18.4208039
@@ -112,7 +112,7 @@ window.onload = function () {
         function addMarkerInfo() {
             for (var i = 0; i < markersOnMap.length; i++) {
                 var contentString = '<div id="content"><h1>' + markersOnMap[i].placeName +
-                    '</h1><p>Lorem ipsum dolor sit amet, vix mutat posse suscipit id, vel ea tantas omittam detraxit.</p></div>';
+                    '</h2><p>The official stadiums of Euro 2020</p></div>';
  
                 const marker = new google.maps.Marker({
                     position: markersOnMap[i].LatLng[0],
@@ -121,7 +121,7 @@ window.onload = function () {
  
                 const infowindow = new google.maps.InfoWindow({
                     content: contentString,
-                    maxWidth: 200
+                    maxWidth: 300
                 });
  
                 marker.addListener('click', function () {
@@ -161,10 +161,10 @@ window.onload = function () {
             addMarkerInfo();
         }
 
-      
-
-       var markerCluster = new MarkerClusterer(map, markers,
+   var markerCluster = new MarkerClusterer(map, markers,
             {imagePath: 'https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/m'});
               }
+
+      
 
 

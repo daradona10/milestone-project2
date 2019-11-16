@@ -26,42 +26,58 @@ body:after {
     height: 100vh;
     left: 0;
     right: 0;
-    z-index: -1;
+    z-index: -2;
     background-color: #00818a; center center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
 }
-
+/*maps*/
 
 #map {
-  height: 80vh;
+  height: 60vh !important;
 }
-/* Optional: Makes the sample page fill the window. */
-html, body {
-  height: 400%;
-  width: 100%;
-  margin: 0;
-  padding: 0 15px;
-}
+
 
 #map-canvas {
-        height: 100vh;
-background-size: cover;
+        height: 60vh !important;
 /* Optional: Makes the sample page fill the window. */
-
-  width: 100%;
+ width: 90%;
   margin: 40px;
   margin-bottom: 40px;
-  padding: 20px;
- border: 2px;
+  padding: 10px;
+  border: 2px;
  justify-content: center;
  display: flex;
 }
-      
+ 
+
+/* Color Schemes - reusable colour schemes for pages and containers*/
+
+.nav-footer-color {
+    background-color: #293462;
+    color: #ffffff;
+    box-shadow: 0px 0px 25px 0px rgba(34, 52, 116, 0.95);
+    -webkit-box-shadow: 0px 0px 25px 0px rgba(34, 52, 116, 0.95);
+    -moz-box-shadow: 0px 0px 25px 0px rgba(34, 52, 116, 0.95);
+}
+
+.bg-clr-yellow {
+    background-color: #ec9b36;
+}
+
+.bg-clr-red {
+    background-color: #e45454ed;
+}
+
 
 /*Welcome to Euro 2020*/
+/* General Formatting - general formatting for reuse on pages, items such as headdings, containers for content*/
+
+.btn-red-transition:hover {
+    color: #f7be16;
+}
 .uppercase {
     text-transform: uppercase;
 }
@@ -76,6 +92,63 @@ background-size: cover;
     font-size: 20px;
     color: #fafafa;
 }
+
+.border-box {
+    box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+}
+
+.box-format {
+    padding: 20px;
+    margin: 10px;
+    border-radius: 25px;
+}
+
+/* Navigation Section - styling and formatting for use of reusable nav bar at top of pages*/
+
+.navbar-nav {
+    text-align: center
+}
+
+.navbar-brand img {
+    border: 3px solid #fafafa;
+    max-width: 60px;
+}
+
+.navbar-brand-text {
+    font-weight: 600;
+    color: #fafafa;
+    font-size: 25px;
+    padding: 0px 10px 0px 10px;
+    vertical-align: middle;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #fafafa;
+    font-size: 20px;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+    color: #ec9b36;
+    font-weight: 600;
+}
+
+.navbar-light .navbar-toggler {
+    border-color: #fafafa;
+}
+
+/*....... section*/
+
+section {
+    margin-top: 63px;
+    padding: 15px;
+}
+
 /* Euro Trophy Background in Index Page */
 .index-container {
     height: 100vh;
@@ -118,41 +191,7 @@ background-size: cover;
     color: #fafafa;
 }
 
-/* Navigation Section - styling and formatting for use of reusable nav bar at top of pages*/
 
-.navbar-nav {
-    text-align: center
-}
-
-.navbar-brand img {
-    border: 3px solid #fafafa;
-    max-width: 60px;
-}
-
-.navbar-brand-text {
-    font-weight: 600;
-    color: #fafafa;
-    font-size: 25px;
-    padding: 0px 10px 0px 10px;
-    vertical-align: middle;
-}
-
-.navbar-light .navbar-nav .nav-link {
-    color: #fafafa;
-    font-size: 20px;
-    transition: all 0.35s ease-in-out;
-    -moz-transition: all 0.35s ease-in-out;
-    -o-transition: all 0.35s ease-in-out;
-    -webkit-transition: all 0.35s ease-in-out;
-}
-
-.nav-footer-color {
-    background-color: #293462;
-    color: #ffffff;
-    box-shadow: 0px 0px 25px 0px rgba(34, 52, 116, 0.95);
-    -webkit-box-shadow: 0px 0px 25px 0px rgba(34, 52, 116, 0.95);
-    -moz-box-shadow: 0px 0px 25px 0px rgba(34, 52, 116, 0.95);
-}
 /*Index Box*/
 .bg-clr-yellow {
     background-color: #ec9b36;
@@ -184,46 +223,66 @@ background-size: cover;
     color: #fafafa;
 }
 
-.btn-red-transition:hover {
-    color: #f7be16;
+/* Formatting for floating of images for mobile design*/
+.img {
+  max-width: 100% ;
+  height: auto ;
 }
 
-.uppercase {
-    text-transform: uppercase;
+.img-fluid {
+    max-width: 100%;
+    height: auto;
 }
 
-.headings {
-    padding-top: 50px;
-    font-weight: 600;
-    color: #fafafa;
-}
-
-.headline-text {
-    font-size: 20px;
-    color: #fafafa;
-}
-
-.border-box {
-    box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
-    -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
-    -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
-}
-
-.box-format {
-    padding: 20px;
-    margin: 10px;
+.price-img-float {
+    border: 3px solid #293462;
     border-radius: 25px;
+    margin: 10px auto 10px auto;
+    float: none;
+}
+
+.container {
+  position: relative;
+  max-width: 800px; /* Maximum width */
+  margin: 0 auto; /* Center it */
+}
+
+.container .content {
+  position: absolute; /* Position the background text */
+  bottom: 0;
+  background: rgb(247, 240, 240); /* Fallback color */
+  background: rgb(245, 242, 242);
+  color: #f1f1f1; /* Grey text */
+  width: 100%; /* Full width */
+  padding: 20px; /* Some padding */
+}
+
+.container-wrapper {
+     margin-top: 50px;
+     margin-bottom: 40px;
+}
+
+.container-wrapper--yellow{
+    background-color: #f9931eed;
+    color: white;
+}
+
+/*page heading formatting on pages*/
+.page-header {
+    margin-bottom: 0;
+    border-bottom: 0;
+    text-align: center;
+}
+
+.page-header h2 {
+    margin-top: 0;
 }
 
 /*Footer Menu*/
 footer {
-    margin-top: auto;
+      margin-top: auto;
 }
 
-.three-reasons-icon {
-    font-size: 26px;
-    color: #f7be16;
-}
 
 .footer-headings {
     padding-top: 15px;
