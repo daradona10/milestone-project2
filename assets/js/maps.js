@@ -67,7 +67,7 @@ function initialize()
   });
 
   var marker = new google.maps.Marker({
-    position:{lat:41.934077,lng:12.454725},
+    position:{lat:41.933731,lng:12.452420},
     map: map,
     title: 'Stadio Olimpico'
   });
@@ -240,7 +240,7 @@ setTimeout(function() {
 
      $("11").on('click', function ()
     {
-	 let latLng = new google.maps.LatLng(41.934077,12.454725);
+	 let latLng = new google.maps.LatLng(41.933731,12.452420);
       map.setZoom(15)
       map.panTo(latLng)
       var delayInMilliseconds = 3000; //3 second
