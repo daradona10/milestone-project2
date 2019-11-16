@@ -42,15 +42,9 @@ body:after {
 
 #map-canvas {
         height: 60vh !important;
-/* Optional: Makes the sample page fill the window. */
- width: 90%;
-  margin: 40px;
-  margin-bottom: 40px;
-  padding: 10px;
-  border: 2px;
- justify-content: center;
- display: flex;
+        margin-top: 40px;
 }
+
  
 
 /* Color Schemes - reusable colour schemes for pages and containers*/
@@ -69,6 +63,19 @@ body:after {
 
 .bg-clr-red {
     background-color: #e45454ed;
+}
+
+/*Button for submitting contact form*/
+
+.btn-red-transition {
+    color: #fafafa;
+    font-weight: 600;
+    background-color: #293462;
+    border: 0px solid;
+    transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
 }
 
 
