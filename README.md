@@ -57,6 +57,128 @@ It was decided to have the website spread across 4 pages and kept simmple as foo
 
 * Minimial/Simple user navigation 
 
-The design utilises the Bootstrap grid system, containers and components responsive to different screen sizes and devices, styled with 
+The design utilises the Bootstrap grid system, containers and components responsive to different screen sizes and devices, styled with jQuery
+
+This site is limited to interactive front-end design only (HTML, CSS and JavaScript)
+
+# Features
+
+  # Exisiting Features
+
+  * Navigation: Simple navigation of the site that jumps to the selected section pages
+
+  * Map on home page highlights the stadium in pop up window when the marker is clicked on
+
+  * Buttons on home page open up the host cities page and the newsletter sign ups
+
+  * Marker Locations are displayed on the maps and both pages when clicked on or highlighted have stadium names
+
+  * Map on locations page zooms in when button to relevant city clicked upon powered by Google Maps API.
+
+  * Images of stadiums with brief trivia on them with key matches and dates oultined also
+
+  * Newsletter: Newsletter signup allows users to fill out form which is sent to an email address, powered by EmailJS
+
+  * Social Media: Links to the official Euro 2020 social media platforms
 
 
+# Features Left to Implement
+
+  * To have more interactivity on the site, places of interest etc
+
+  * To be able to implement a ticketing section for the fans that can buy and swap tickets with other fans who are looking to offload them
+
+  * To have a fans forum for fans to interact via chatrooms to talk everythingfootball related
+
+  * To have a search bar over the map for greater information on bars, hotels, ATM's etc
+
+# Technologies used
+
+  The following languages, frameworks, libraries, IDE, repositories and tools were used for this website:
+
+    * HTML5 - utilises the HTML language and sematic elements for basic layouts and functions.
+
+    * CSS3 - styles using CSS for classes and specific elements
+
+    * Bootstrap - website created using the Bootstrap grid system and components using the CDN to create layout for responsive design.
+
+    * Font Awesome - for icons used for social media links and in contact information
+
+    * JQuery - used for responsive navbar
+
+    * JavaScript - This project utilises JavaScript for the executions of functions relating to the API resources (connect, and display etc)
+
+    * Google Maps API - utilises the Google Maps JavaScript API for locating city markers and having the zoom in feature from auto centre of Europe map.
+
+    * EmailJS - to allow the users to sign up for the newsletter and to gather the email addresses
+
+    * Popper.js - also ised for responsive navbar.
+
+    * GitHub - for hosting of project repository as well as publishling of website.
+
+    * W3C CSS Validation Service - this project was tested for checking conformity and validity of css content.
+
+# Testing
+
+# Deployment 
+
+   The project is deployed on Github and is accessible as follows:
+
+     * Website:
+
+     * Repository:
+
+To deploy this page to GitHub pages from its GitHub repository, the following steps were taken:
+
+     1. Log into GitHub.
+     2. From list of repositories on the screen, select 
+     3. From the menu items near the top of the page, select Settings
+     4. Scroll down to the GitHub Pages section.
+     5. Under the Source Link click the drop-down menu labelled None and select master Branch
+     6. On selecting Master Branch the page is automatically refreshed, the website is now deployed.
+     7. Scroll back down to the GitHub Pages section to retrieve the link to the deployed website.
+
+This website can also be locally deployed by following the method outlined below:
+
+ 1. Follow the link to GitHub repository [here]
+ 2. Under the repository name, click the green "Clone or download"button
+ 3. In the Clone with HTTPs section, copy the clone URL for the repository
+ 4. In your local editor program, open Git Bash
+ 5. Change the current working directory to the location where you want the cloned directory to be made.
+ 6. Type the git clone, and then paste the URL you copied in Step 3.
+ 7. Press Enter. Your local clone will be created.     
+
+
+# Credits
+
+# Content 
+
+  * Map display is obtained using the Google Maps API
+
+  * Content for the Map infoWindows (click on or highlight over ) obtained from google maps JavaScript API 
+
+  * Stack Overflow was researched extsensively to try and find some solutions to what I was trying to achieve
+
+  * Official Euro 2020 website was used for the information on cities, key match dates etc
+
+  * Went back over some of the coursework we did to take some inspirations and using some of the tools we learnt also and used some of the coding from
+    when it was needed
+
+  * EmailJS website was used to set up a service to allow the users to sign up to the newsletter
+
+  * W3Schools site for hints and other information on JavaScript
+
+# Media
+
+  * Video on Newsletter page was taken from Youtube
+
+  * Color layout for website taken from 
+
+# Acknowledgements
+
+  * I would like to thank Brian Macharia my mentor for his valaubale contributions at times
+
+  * I would like to thank Xavier my tutor at Code Institute for guiding me through this
+
+  * A lot of thanks and gratitude to the slack community for helping me whenever I got and to at least point me in the right direction
+.
