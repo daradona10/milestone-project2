@@ -37,7 +37,7 @@ This website was provided to satisfy the requirements, in details (guided by use
 
  * As a fan of watching football, I love being able to sign up for the newsletter to get the latest information re match tickets, festival news for host cities etc
 
- * As someone who would use the site frequently I want to keep the site up to dat and have any important news and latest changes to be made known also
+ * As someone who would use the site frequently I want to keep the site up to date and have any important news and latest changes to be made known also
 
 ### Wireframes
 
