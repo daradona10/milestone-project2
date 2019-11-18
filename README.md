@@ -1,6 +1,6 @@
 # DARRAGH MARTIN PROJECT MILESTONE 2: EURO 2020 GOOGLE MAPS API
 
-The deployed website can be accessed from
+The deployed website can be accessed from: [here](https://daradona10.github.io/milestone-project2/)
 
 # MAIN GOAL FOT THIS WEBSITE
 
@@ -43,9 +43,9 @@ This website was provided to satisfy the requirements, in details (guided by use
 
 Wireframes for the mobile and desktop was done through Balsamiq. Both are listed below:
 
-    # Mobile:
+# Mobile: [here](https://github.com/daradona10/milestone-project2/blob/master/development/wireframemobiledesignproject2.pdf)
 
-    # Desktop:
+ # Desktop: [here](https://github.com/daradona10/milestone-project2/blob/master/development/wireframedesktopdesignproject2.pdf)
 
 # Design Considerations:
 
@@ -124,9 +124,9 @@ This site is limited to interactive front-end design only (HTML, CSS and JavaScr
 
    The project is deployed on Github and is accessible as follows:
 
-     * Website:
+ # Website: [here](https://daradona10.github.io/milestone-project2/)
 
-     * Repository:
+ # Repository: [here](https://github.com/daradona10/milestone-project2)
 
 To deploy this page to GitHub pages from its GitHub repository, the following steps were taken:
 
@@ -140,7 +140,7 @@ To deploy this page to GitHub pages from its GitHub repository, the following st
 
 This website can also be locally deployed by following the method outlined below:
 
- 1. Follow the link to GitHub repository [here]
+ 1. Follow the link to GitHub repository [here](https://github.com/daradona10/milestone-project2)
  2. Under the repository name, click the green "Clone or download"button
  3. In the Clone with HTTPs section, copy the clone URL for the repository
  4. In your local editor program, open Git Bash
