@@ -115,7 +115,7 @@ setTimeout(function() {
 	let latLng = new google.maps.LatLng(40.4300, 49.9196);
       map.setZoom(15)
       map.panTo(latLng)
-      var delayInMilliseconds = 3000; //3 second
+      var delayInMilliseconds = 5000; //5 second
 
       setTimeout(function() {
      map.setZoom(4)

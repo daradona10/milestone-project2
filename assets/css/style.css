@@ -27,7 +27,7 @@ body:after {
     left: 0;
     right: 0;
     z-index: -2;
-    background-color: #00818a; center center;
+    background-color: #00A8B5; center center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -354,6 +354,8 @@ section {
         -moz-transition: all 0.35s ease-in-out;
         -webkit-transition: all 0.35s ease-in-out;
     }
+
+
 /*media queries for larger viewports*/
 
 @media (min-width:992px) {
@@ -361,6 +363,7 @@ section {
         border: 3px solid;
         max-width: 100px;
     }
+}
 /* Formatting of Location map for responsive design*/
 
 .embed-responsive-item {
