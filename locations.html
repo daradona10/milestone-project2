@@ -1,113 +1,136 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-		type="text/css" />
-	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
-		type="text/css" />
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.1/css/hover-min.css"
-		type="text/css" />
-	<link rel="stylesheet" href="assets/css/style.css" type="text/css" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" type="text/css" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.1/css/hover-min.css" type="text/css" />
+    <link rel="stylesheet" href="assets/css/style.css" type="text/css" />
     <title>Euro 2020</title>
 </head>
 
 
 <body>
-<!--Header logo and Nav Bar using Bootstrap components and utilities-->
-	<header class="container-fluid">
-		<nav class="navbar navbar-expand-lg nav-footer-color navbar-light fixed-top">
-			<a class="navbar-brand" href="index.html">
-				<img src="assets/images/Euro2020.png" class="d-inline-block" alt="Football Logo">
-				<span class="navbar-brand-text">EURO 2020</span>
-			</a>
+    <!--Header logo and Nav Bar using Bootstrap components and utilities-->
+    <header class="container-fluid">
+        <nav class="navbar navbar-expand-lg nav-footer-color navbar-light fixed-top">
+            <a class="navbar-brand" href="index.html">
+                <img src="assets/images/Euro2020.png" class="d-inline-block" alt="Football Logo">
+                <span class="navbar-brand-text">EURO 2020</span>
+            </a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
-			<div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-				<div class="navbar-nav">
-					<a class="nav-item nav-link" href="index.html">Home</a>
-					<a class="nav-item nav-link" href="locations.html">Locations</a>
-					<a class="nav-item nav-link" href="stadium.html">Stadium</a>
-					<a class="nav-item nav-link" href="newsletter.html">Newsletter</a>
-			</div>
-		</nav>
-	</header>
-		</nav>
-	</header>
-	
-<section class="container-fluid">
-<div class="row">
-			<div class="col-12">
-<div id="map-canvas"></div>
-			</div>
-</div>
-<button type="button" class="btn btn-primary" id="1" style="padding:15px;cursor:pointer;">AMSTERDAM</button>
-<button type="button" class="btn btn-secondary" id="2" style="padding:15px;cursor:pointer;">BAKU</button>
-<button type="button" class="btn btn-success" id="3" style="padding:15px;cursor:pointer;">BILBAO</button>
-<button type="button" class="btn btn-danger" id="4" style="padding:15px;cursor:pointer;">BUCHAREST</button>
-<button type="button" class="btn btn-warning" id="5" style="padding:15px;cursor:pointer;">BUPAPEST</button>
-<button type="button" class="btn btn-dark" id="6" style="padding:15px;cursor:pointer;">COPENHAGEN</button>
-<button type="button" class="btn btn-primary" id="7" style="padding:15px;cursor:pointer;">DUBLIN</button>
-<button type="button" class="btn btn-secondary" id="8" style="padding:15px;cursor:pointer;">GLASGOW</button>
-<button type="button" class="btn btn-success" id="9" style="padding:15px;cursor:pointer;">LONDON</button>
-<button type="button" class="btn btn-danger" id="10" style="padding:15px;cursor:pointer;">MUNICH</button>
-<button type="button" class="btn btn-warning" id="11" style="padding:15px;cursor:pointer;">ROME</button>
-<button type="button" class="btn btn-dark" id="12" style="padding:15px;cursor:pointer;">SAINT PETERSBURG</button>
-<br>
-<br>
-</section>
-
-<!--Footer - social media links, opening hours etc using font awesome also-->
-	<footer class="container-fluid">
-		<div class="row nav-footer-color">
-			<div class="col-sm-4">
-				<h5 class="footer-headings uppercase">Social Media</h5>
-				<p>Folow us on social media:</p>
-				<ul class="list-inline footer-links">
-					<li class="list-inline-item">
-						<a target="_blank" aria-label="Link to Facebook" rel="noopener"
-							href="https://www.facebook.com/EURO2020/">
-							<i class="fa fa-facebook" aria-hidden="true"></i>
-							<span class="sr-only">Facebook</span>
-						</a>
-					</li>
-					<li class="list-inline-item">
-						<a target="_blank" aria-label="Link to Twitter" rel="noopener"
-							href="https://twitter.com/UEFAEURO">
-							<i class="fa fa-twitter" aria-hidden="true"></i>
-							<span class="sr-only">Twitter</span>
-						</a>
-					</li>
-					<li class="list-inline-item">
-						<a target="_blank" aria-label="Link to YouTube" rel="noopener"
-							href="https://www.youtube.com/watch?v=oHz4h7hiPgo">
-							<i class="fa fa-youtube" aria-hidden="true"></i>
-							<span class="sr-only">YouTube</span>
-						</a>
-					</li>
-					<li class="list-inline-item">
-						<a target="_blank" aria-label="Link to Instagram" rel="noopener"
-							href="https://instagram.com/euro2020/">
-							<i class="fa fa-instagram" aria-hidden="true"></i>
-							<span class="sr-only">Instagram</span>
-						</a>
-					</li>
-				</ul>
-			</div>
-		</div>
-	</footer>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                    <a class="nav-item nav-link" href="index.html">Home</a>
+                    <a class="nav-item nav-link" href="locations.html">Locations</a>
+                    <a class="nav-item nav-link" href="stadium.html">Stadium</a>
+                    <a class="nav-item nav-link" href="newsletter.html">Newsletter</a>
+                </div>
+            </div>
+        </nav>
+    </header>
 
 
+    <!-- https://stackoverflow.com/questions/28499141/ -->
+
+    <section class="container-fluid">
+        <div class="row">
+            <div class="col-12">
+                <div id="map-canvas"></div>
+            </div>
+        </div>
+
+        <div class="row no-gutters">
+            <div class="col-12 col-md-4">
+                <div class="row no-gutters">
+                    <div class="col-3"><button type="button" class="btn btn-primary btn-sm" id="1" style="padding:10px;cursor:pointer;">AMSTERDAM</button>
+                    </div>
+                    <div class="col-3"><button type="button" class="btn btn-secondary btn-sm" id="2" style="padding:10px;cursor:pointer;">BAKU</button>
+                    </div>
+                    <div class="col-3"><button type="button" class="btn btn-success btn-sm" id="3" style="padding:10px;cursor:pointer;">BILBAO</button>
+                    </div>
+                    <div class="col-3"><button type="button" class="btn btn-danger btn-sm" id="4" style="padding:10px;cursor:pointer;">BUCHAREST</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-4">
+                <div class="row no-gutters">
+                    <div class="col-3"><button type="button" class="btn btn-warning btn-sm" id="5" style="padding:10px;cursor:pointer;">BUPAPEST</button>
+                    </div>
+                    <div class="col-3"><button type="button" class="btn btn-dark btn-sm" id="6" style="padding:10px;cursor:pointer;">COPENHAGEN</button>
+                    </div>
+                    <div class="col-3"><button type="button" class="btn btn-primary btn-sm" id="7" style="padding:10px;cursor:pointer;">DUBLIN</button>
+                    </div>
+                    <div class="col-3"><button type="button" class="btn btn-secondary btn-sm" id="8" style="padding:10px;cursor:pointer;">GLASGOW</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-3">
+                <div class="row no-gutters">
+                    <div class="col-3"><button type="button" class="btn btn-success btn-sm" id="9" style="padding:10px;cursor:pointer;">LONDON</button>
+                    </div>
+                    <div class="col-3"><button type="button" class="btn btn-danger btn-sm" id="10" style="padding:10px;cursor:pointer;">MUNICH</button>
+                    </div>
+                    <div class="col-3"><button type="button" class="btn btn-warning btn-sm" id="11" style="padding:10px;cursor:pointer;">ROME</button>
+                    </div>
+                    <div class="col-3"><button type="button" class="btn btn-dark btn-sm" id="12" style="padding:10px;cursor:pointer;">ST PETERSBURG</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <br>
+        <br>
+    </section>
+
+    <!--Footer - social media links, opening hours etc using font awesome also-->
+    <footer class="container-fluid">
+        <div class="row nav-footer-color">
+            <div class="col-sm-4">
+                <h5 class="footer-headings uppercase">Social Media</h5>
+                <p>Folow us on social media:</p>
+                <ul class="list-inline footer-links">
+                    <li class="list-inline-item">
+                        <a target="_blank" aria-label="Link to Facebook" rel="noopener" href="https://www.facebook.com/EURO2020/">
+                            <i class="fa fa-facebook" aria-hidden="true"></i>
+                            <span class="sr-only">Facebook</span>
+                        </a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a target="_blank" aria-label="Link to Twitter" rel="noopener" href="https://twitter.com/UEFAEURO">
+                            <i class="fa fa-twitter" aria-hidden="true"></i>
+                            <span class="sr-only">Twitter</span>
+                        </a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a target="_blank" aria-label="Link to YouTube" rel="noopener" href="https://www.youtube.com/watch?v=oHz4h7hiPgo">
+                            <i class="fa fa-youtube" aria-hidden="true"></i>
+                            <span class="sr-only">YouTube</span>
+                        </a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a target="_blank" aria-label="Link to Instagram" rel="noopener" href="https://instagram.com/euro2020/">
+                            <i class="fa fa-instagram" aria-hidden="true"></i>
+                            <span class="sr-only">Instagram</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </footer>
 
 
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-     <script src="https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/markerclusterer.js"></script>
-     <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&signed_in=true"></script>
-    <script src ="./assets/js/maps.js"></script>
-    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBOCh1i3mrbWapLVWJutkosM2L-c9wMnRc&callback=initMap"></script>
+
+    <!--Script files -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/markerclusterer.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&signed_in=true"></script>
+    <script src="./assets/js/maps.js"></script>
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBOCh1i3mrbWapLVWJutkosM2L-c9wMnRc&callback=initializeMap"></script>
 </body>

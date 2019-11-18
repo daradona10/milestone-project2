@@ -22,7 +22,7 @@ function addMarker(feature) {
 });
 }
 
-
+/*Placing the right markers for each city according to lat and lng*/
  
     var map;
     var InforObj = [];
@@ -108,6 +108,7 @@ function addMarker(feature) {
 window.onload = function () {
             initMap();
         };
+ /*adding an infoWindow*/
  
         function addMarkerInfo() {
             for (var i = 0; i < markersOnMap.length; i++) {

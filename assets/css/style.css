@@ -45,6 +45,15 @@ body:after {
         margin-top: 40px;
 }
 
+
+ .btn {
+     width: 100%;
+     padding: 20px;
+     justify-content: space-around;
+     display: flex;
+     font-size: 80%;
+ }
+
  
 
 /* Color Schemes - reusable colour schemes for pages and containers*/
@@ -369,3 +378,5 @@ section {
 .embed-responsive-item {
     margin-top: 30px;
 }
+
+

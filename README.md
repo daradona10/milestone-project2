@@ -120,6 +120,58 @@ This site is limited to interactive front-end design only (HTML, CSS and JavaScr
 
 # Testing
 
+# Code Validation:
+
+The HTML pages were checked using the W3C Validation sites with no errors reported. Warnings were reported but had no relevancy to the pages. The style.css file was tested 
+using the W3C CSS Autoprefixer CSS Online tool and all was good. 
+
+Console error was logged on home page but I had corrected it in line with my mentors suggestions and still did not clear. The same for locations page. The contact page was
+ignored as no idea as to why it was happening. Again as in line with my mentor, everything was working fine. 
+On newsletter errors was logged for video player but again everything checked out ok.
+
+The site was tested on Chrome and using dev tools for functionality. Verified all working well.
+
+The following testing scenarios were applied across all screen sizes.
+
+# Testing Scenarios:
+
+1 Newsletter Sign-Up form:
+
+Go to the "Home" page, click on Newsletter page.
+-Try to submit empty form and it comes up first saying please fill out the first field
+              -If you fill out first field and then press submit the same thing happens and asks you to fill out the field below it
+              -If you fill out the email address section without the @ sign it will tell you that an email address needs to have the @ sign in it.
+              -Once all fields are filled out correctly with no errors, verified working correctly.
+              -Once you type in box with YES (anything can be written but to keep it simple), the submit says it is sending and is highlighted in pop up window
+               sent successfully.
+               -Official Song Video was embedded to work on all devices
+
+2 Footers:
+
+Go to Footer section on page.
+Checked that footer content is stacked on top of one another for smaller screen sizes and adjacent to one another on larger displays, verified working correctly.
+Checked that icons link to correct social media site (in a new page), verified working correctly.
+Checked that transitions on desktop view is applied on hover over social media icons, working correctly.
+
+3 Navigation Bars:
+
+Go to Navigation bar on page.
+Check that brand logo resizes on larger screens, verified working correctly.
+Check that navigation links collapse to navigation toggle on smaller screens, verified working correctly.
+Checked that links navigate to sections on page, verified working correctly.
+
+4 Map Display Area:
+
+  Map section on Home page is loaded with markers and also when clicked upon gives you the name of stadium in pop up window
+
+  Map section on Locations page loaded with markers and when hovered over has a small text containing name of stadium
+  Also when a certain button is pressed zooms in on the city for 3 seconds before resetting to original location which is map of Europe by default.
+
+5 Stadium page:
+
+  Checked that content is viewable in containers and structure looks good and stacked on top of each other on smaller devices also.
+
+
 # Deployment 
 
    The project is deployed on Github and is accessible as follows:

@@ -79,6 +79,7 @@ function initialize()
   });
 }
 
+//https://www.youtube.com/watch?v=Zxf1mnP5zcw&t=707s//
 
 function newLocation(newLat,newLng)
 {
@@ -87,13 +88,12 @@ function newLocation(newLat,newLng)
 		lng : newLng
 	});
 }
-
 google.maps.event.addDomListener(window, 'load', initialize);
 
 //Setting Location with jQuery
 $(document).ready(function ()
 {
-    
+    /*zoom feature which is set 3 secs before resets*/
     $("#1").on('click', function ()
     {
       let latLng = new google.maps.LatLng(52.314371, 4.941964);
@@ -104,10 +104,10 @@ $(document).ready(function ()
 setTimeout(function() {
      map.setZoom(4)
       map.panTo(latLng)
-  //your code to be executed after 1 second
+  
 }, delayInMilliseconds);
       
-    //   newLocation(52.314371,4.941964); 
+  
 	});
   
 	$("#2").on('click', function ()
@@ -120,7 +120,7 @@ setTimeout(function() {
       setTimeout(function() {
      map.setZoom(4)
       map.panTo(latLng)
-  //your code to be executed after 1 second
+  
 }, delayInMilliseconds);
    
 	});
@@ -135,7 +135,7 @@ setTimeout(function() {
       setTimeout(function() {
      map.setZoom(4)
       map.panTo(latLng)
-  //your code to be executed after 1 second
+  
 }, delayInMilliseconds);
     });
     
@@ -149,7 +149,7 @@ setTimeout(function() {
       setTimeout(function() {
      map.setZoom(4)
       map.panTo(latLng)
-  //your code to be executed after 1 second
+  
 }, delayInMilliseconds);
     
     });
@@ -164,7 +164,7 @@ setTimeout(function() {
       setTimeout(function() {
      map.setZoom(4)
       map.panTo(latLng)
-  //your code to be executed after 1 second
+  
 }, delayInMilliseconds);
     });
 
@@ -178,7 +178,7 @@ setTimeout(function() {
       setTimeout(function() {
      map.setZoom(4)
       map.panTo(latLng)
-  //your code to be executed after 1 second
+ 
 }, delayInMilliseconds);
     });
 
@@ -192,7 +192,7 @@ setTimeout(function() {
       setTimeout(function() {
      map.setZoom(4)
       map.panTo(latLng)
-  //your code to be executed after 1 second
+  
 }, delayInMilliseconds);
     });
 
@@ -206,7 +206,7 @@ setTimeout(function() {
       setTimeout(function() {
      map.setZoom(4)
       map.panTo(latLng)
-  //your code to be executed after 1 second
+  
 }, delayInMilliseconds);
     });
 
@@ -220,7 +220,7 @@ setTimeout(function() {
       setTimeout(function() {
      map.setZoom(4)
       map.panTo(latLng)
-  //your code to be executed after 1 second
+  
 }, delayInMilliseconds);
     });
 
@@ -234,7 +234,7 @@ setTimeout(function() {
       setTimeout(function() {
      map.setZoom(4)
       map.panTo(latLng)
-  //your code to be executed after 1 second
+  
 }, delayInMilliseconds);
     });
 
@@ -248,7 +248,7 @@ setTimeout(function() {
       setTimeout(function() {
      map.setZoom(4)
       map.panTo(latLng)
-  //your code to be executed after 1 second
+  
 }, delayInMilliseconds);
     });
 
@@ -262,7 +262,7 @@ setTimeout(function() {
       setTimeout(function() {
      map.setZoom(4)
       map.panTo(latLng)
-  //your code to be executed after 1 second
+  
 }, delayInMilliseconds);
     });
 });
